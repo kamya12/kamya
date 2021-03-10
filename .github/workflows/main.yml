@@ -16,5 +16,5 @@ jobs:
 
           #role-session-name: GH-Actions-${{ env.project }}
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./public/ s3://elasticbeanstalk-ap-south-1-031409194969
+      run: aws s3 sync https://github.com/kamya12/kamya/tree/main/public s3://elasticbeanstalk-ap-south-1-031409194969
   
