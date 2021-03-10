@@ -14,7 +14,7 @@ jobs:
             aws-secret-access-key: fVzsqP/cjjWlBhogVCFyejMawrdy8JDQ7eIru183
             aws-region: ap-southeast-1
             role-to-assume: s3role
-            role-external-id: arn:aws:iam::031409194969:role/s3role
+            role-external-id: arn:aws:iam::031409194969:user/s3role
             role-duration-seconds: 1200
             role-session-name: MySessionName
     - name: Deploy static site to S3 bucket
